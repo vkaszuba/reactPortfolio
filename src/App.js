@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Header from './../../components/Header'
-import Navbar from './../../components/Navbar'
-import Footer from './../../components/Footer'
+import Header from './components/Header.js'
+import Navbar from './components/Navbar.js'
+import About from './pages/About.js'
+import Footer from './components/Footer.js'
 
 class App extends Component {
 
@@ -11,6 +12,7 @@ class App extends Component {
 
         <Header />
         <Navbar />
+        <About/>
         <Footer/>
 
       </div>
