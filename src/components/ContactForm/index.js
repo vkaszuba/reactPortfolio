@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TodoForm = props => (
+const ContactForm = props => (
   <form>
     <div className="form-group">
       <label for="todoList">Todos</label>
@@ -24,4 +24,4 @@ const TodoForm = props => (
   </form>
 );
 
-export default TodoForm;
+export default ContactForm;

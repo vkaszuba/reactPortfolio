@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Replace this.state with props
-const Counter = props => {
+const Navbar = props => {
   return (
     <div>
 
@@ -23,4 +23,4 @@ const Counter = props => {
   )
 };
 
-export default Counter;
+export default Navbar;
