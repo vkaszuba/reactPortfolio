@@ -6,10 +6,16 @@ const Navbar = props => {
 
     <div className="col-xs-0 col-md-2">
     <div className="navBar">
-        <a href="index.html" className="linkFont"><h6>//</h6> About</a>
-        <a href="portfolio.html" className="linkFont">// Portfolio</a>
-        <a href="resume.html" className="linkFont">// Resume</a>
-        <a href="contact.html" className="linkFont">// Contact</a>
+    <a href="#about" 
+           onClick={() => props.handlePageChange("About")} 
+           className="linkFont"
+           link={ props.currentPage === 'About' ? "nav-link active" : 'nav-link'}>About</a>
+
+        <a href="#portfolio" 
+           onClick={() => props.handlePageChange("Portfolio")} 
+           className="linkFont"
+           link={ props.currentPage === 'Portfolio' ? "nav-link active" : 'nav-link'}>Portfolio</a>
+
     </div>
     </div>
   )
