@@ -27,7 +27,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header
+          currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}
+        />
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}

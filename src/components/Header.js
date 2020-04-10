@@ -11,13 +11,13 @@ const Header = props => {
 
       <div className="row">
         <div className="navSmall">
+          
           <a href="#about"
             onClick={() => props.handlePageChange("About")}
             className="linkFont"
-            link={props.currentPage === 'About' ? "nav-link active" : 'nav-link'}>
-            About</a>
-//
-              <a href="#portfolio"
+            link={props.currentPage === 'About' ? "nav-link active" : 'nav-link'}>About</a>
+
+          <a href="#portfolio"
             onClick={() => props.handlePageChange("Portfolio")}
             className="linkFont"
             link={props.currentPage === 'Portfolio' ? "nav-link active" : 'nav-link'}>Portfolio</a>
