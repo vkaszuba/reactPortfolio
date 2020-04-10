@@ -1,4 +1,9 @@
 
+/* Hides side navbar and About image */
+.navSmall {
+  display: none;
+}
+
 /* Links bar inside the header */
 .navBar {
   position: fixed;
@@ -19,6 +24,7 @@
 .nameBox {
   position: fixed;
   left: 0;
+  right: 0;
   top: 0;
   width: 100%;
   height: 80px;
