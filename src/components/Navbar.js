@@ -4,7 +4,6 @@ import React from 'react';
 const Navbar = props => {
   return (
 
-    <div className="col-xs-0 col-md-2">
       <div className="navBar">
         <div className="row">
           <a href="#about"
@@ -25,7 +24,6 @@ const Navbar = props => {
             link={props.currentPage === 'Resume' ? "nav-link active" : 'nav-link'}>Resume</a>
         </div>
       </div>
-    </div>
   )
 };
 

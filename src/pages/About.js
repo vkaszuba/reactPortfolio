@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="col-xs-12 col-md-10">
+    <div className="col">
       <div className="bodyBox">
         <h2>About Me</h2>
         

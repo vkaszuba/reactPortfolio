@@ -84,12 +84,16 @@ h6 {
   display: inline;
 }
 
+.container {
+  margin: 0;
+  margin-left: 200px;
+}
+
 /* Color and scale for main content page box */
 .bodyBox {
   background: #cacaca;
   padding: 40px;
-  margin-left: 30px;
-  margin-right: 0px;
+  width: 100%;
   margin-bottom: 90px;
   margin-top: 90px;
   color: #777777;

@@ -27,6 +27,7 @@ class App extends Component {
         return <About />;
     }
   }
+  
   render() {
     return (
       <div className="container">
@@ -34,13 +35,14 @@ class App extends Component {
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
-        <div className="row">
+
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
+
         {this.renderPage()}
-        </div>
+
         <Footer />
       </div>
     );

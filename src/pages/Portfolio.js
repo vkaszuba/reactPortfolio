@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div class="col-xs-12 col-md-10">
+    <div class="col">
       <div class="bodyBox">
         <h2>Portfolio</h2>
 
