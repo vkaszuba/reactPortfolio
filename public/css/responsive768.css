@@ -38,7 +38,7 @@
   font-family: 'Rajdhani', sans-serif;
   color: #777777;
   font-size: 20px;
-  line-height: 50px;
+  line-height: 40px;
 }
   
 /* My name font info */
@@ -90,7 +90,7 @@ h6 {
   width: 90%;
   padding: 40px;
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 65px;
   margin-bottom: 65px;
   color: #777777;
   font-size: 18px;
@@ -115,7 +115,7 @@ body {
 
 @media screen and (max-width: 360px){
 
-    /* My name font info */
+/* My name font info */
 h1 {
   font-family: 'Rajdhani', sans-serif;
   text-align: center;
@@ -123,6 +123,7 @@ h1 {
   color: #fff;
   margin-top: 5px;
 }
+
 /* Navbar link font info */
 .linkFont {
   font-family: 'Rajdhani', sans-serif;

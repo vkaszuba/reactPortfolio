@@ -3,6 +3,7 @@ import Header from './components/Header.js'
 import Navbar from './components/Navbar.js'
 import About from './pages/About.js'
 import Portfolio from './pages/Portfolio.js'
+import Resume from './pages/Resume.js'
 import Footer from './components/Footer.js'
 
 class App extends Component {
@@ -20,6 +21,8 @@ class App extends Component {
         return <About />;
       case 'Portfolio':
         return <Portfolio />;
+        case 'Resume':
+          return <Resume />;
       default:
         return <About />;
     }

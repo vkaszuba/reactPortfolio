@@ -18,6 +18,12 @@ const Navbar = props => {
             className="linkFont"
             link={props.currentPage === 'Portfolio' ? "nav-link active" : 'nav-link'}>Portfolio</a>
         </div>
+        <div className="row">
+          <a href="#resume"
+            onClick={() => props.handlePageChange("Resume")}
+            className="linkFont"
+            link={props.currentPage === 'Resume' ? "nav-link active" : 'nav-link'}>Resume</a>
+        </div>
       </div>
     </div>
   )
