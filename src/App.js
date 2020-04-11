@@ -29,16 +29,18 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
         <Header
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
+        <div className="row">
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        </div>
         <Footer />
       </div>
     );
