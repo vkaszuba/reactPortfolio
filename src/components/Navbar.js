@@ -16,6 +16,8 @@ const Navbar = props => {
             onClick={() => props.handlePageChange("Portfolio")}
             className="linkFont"
             link={props.currentPage === 'Portfolio' ? "nav-link active" : 'nav-link'}>Portfolio</a>
+             {/* ? if its complete then do next
+             : Otherwise, do next */}
         </div>
         <div className="row">
           <a href="#resume"
